@@ -2,9 +2,12 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 from base.selenium_driver import SeleniumDriver
+import utilities.custom_logger as cl
+import logging
 
 
 class LoginPage(SeleniumDriver):
+    log = cl.customLogger(logging.DEBUG)
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
@@ -44,3 +47,7 @@ class LoginPage(SeleniumDriver):
         self.enter_email(email)
         self.enter_password(password)
         self.click_login_button()
+
+    def verify_login_successful(self, driver):
+        result = self.isElementPresent("//button[@id='dropdownMenu1']//img")
+        user_icon = driver.find_element(By.XPATH, "//button[@id='dropdownMenu1']//img")
