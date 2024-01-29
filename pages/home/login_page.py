@@ -42,12 +42,19 @@ class LoginPage(SeleniumDriver):
     def click_login_button(self):
         self.elementClick(self._login_button)
 
-    def login(self, email, password):
+    def login(self, email="", password=""):
         self.click_login_link()
         self.enter_email(email)
         self.enter_password(password)
         self.click_login_button()
 
-    def verify_login_successful(self, driver):
-        result = self.isElementPresent("//button[@id='dropdownMenu1']//img")
-        user_icon = driver.find_element(By.XPATH, "//button[@id='dropdownMenu1']//img")
+    def verify_login_successful(self):
+        time.sleep(2)
+        result = self.isElementPresent("//button[@id='dropdownMenu1']//img", locatorType="xpath")
+        # user_icon = driver.find_element(By.XPATH, "//button[@id='dropdownMenu1']//img")
+        return result
+
+    def verify_login_failed(self):
+        result = self.isElementPresent("//span[@id='incorrectdetails']", locatorType="xpath")
+        return result
+
