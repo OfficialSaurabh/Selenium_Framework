@@ -31,6 +31,7 @@ class LoginPage(SeleniumDriver):
     #     return self.driver.find_element(By.ID, self._login_button)
 
     def click_login_link(self):
+        time.sleep(2)
         self.elementClick(self._login_link, locatorType="xpath")
 
     def enter_email(self, email):
