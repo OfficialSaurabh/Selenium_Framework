@@ -1,40 +1,142 @@
-01/30/2024 10:25:12 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
-01/30/2024 10:25:12 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
-01/30/2024 10:25:12 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
-01/30/2024 10:25:12 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-01/30/2024 10:25:12 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
-01/30/2024 10:25:12 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
-01/30/2024 10:25:12 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
-01/30/2024 10:25:13 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
-01/30/2024 10:25:13 AM - LoginPage - INFO: Element Found with locator: //span[@id='incorrectdetails'] and  locatorType: xpath
-01/30/2024 10:25:13 AM - LoginPage - INFO: Element Found
-01/30/2024 10:25:15 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
-01/30/2024 10:25:15 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
-01/30/2024 10:25:15 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
-01/30/2024 10:25:16 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-01/30/2024 10:25:16 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
-01/30/2024 10:25:16 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
-01/30/2024 10:25:16 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
-01/30/2024 10:25:16 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
-01/30/2024 10:25:21 AM - LoginPage - INFO: Element Found with locator: //button[@id='dropdownMenu1']//img and  locatorType: xpath
-01/30/2024 10:25:21 AM - LoginPage - INFO: Element Found
-01/30/2024 10:25:49 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
-01/30/2024 10:25:50 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
-01/30/2024 10:25:50 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
-01/30/2024 10:25:50 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-01/30/2024 10:25:50 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
-01/30/2024 10:25:50 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
-01/30/2024 10:25:50 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
-01/30/2024 10:25:50 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
-01/30/2024 10:25:50 AM - LoginPage - INFO: Element Found with locator: //span[@id='incorrectdetails'] and  locatorType: xpath
-01/30/2024 10:25:50 AM - LoginPage - INFO: Element Found
-01/30/2024 10:25:52 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
-01/30/2024 10:25:53 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
-01/30/2024 10:25:53 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
-01/30/2024 10:25:53 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-01/30/2024 10:25:53 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
-01/30/2024 10:25:53 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
-01/30/2024 10:25:53 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
-01/30/2024 10:25:53 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
-01/30/2024 10:25:58 AM - LoginPage - INFO: Element Found with locator: //button[@id='dropdownMenu1']//img and  locatorType: xpath
-01/30/2024 10:25:58 AM - LoginPage - INFO: Element Found
+01/30/2024 10:59:45 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
+01/30/2024 10:59:46 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/30/2024 10:59:46 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
+01/30/2024 10:59:46 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/30/2024 10:59:46 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
+01/30/2024 10:59:46 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/30/2024 10:59:46 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
+01/30/2024 10:59:47 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/30/2024 10:59:47 AM - LoginPage - INFO: Element Found with locator: //span[@id='incorrectdetails'] and  locatorType: xpath
+01/30/2024 10:59:47 AM - LoginPage - INFO: Element Found
+01/30/2024 10:59:49 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
+01/30/2024 10:59:49 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/30/2024 10:59:49 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
+01/30/2024 10:59:49 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/30/2024 10:59:49 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
+01/30/2024 10:59:49 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/30/2024 10:59:50 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
+01/30/2024 10:59:50 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/30/2024 10:59:53 AM - TestStatus - INFO: ### VERIFICATION FAILED :: + Title Verified
+01/30/2024 10:59:58 AM - LoginPage - INFO: Element not found with locator: //button[@id='dropdownMenu1']//img and  locatorType: xpath
+01/30/2024 10:59:58 AM - LoginPage - INFO: Element not found
+01/30/2024 10:59:58 AM - TestStatus - INFO: ### VERIFICATION FAILED :: + Login was not Successful
+01/30/2024 10:59:58 AM - TestStatus - ERROR: test_valid_login ### TEST FAILED
+01/30/2024 11:03:58 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
+01/30/2024 11:03:59 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/30/2024 11:03:59 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
+01/30/2024 11:03:59 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/30/2024 11:03:59 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
+01/30/2024 11:03:59 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/30/2024 11:03:59 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
+01/30/2024 11:04:00 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/30/2024 11:04:00 AM - LoginPage - INFO: Element Found with locator: //span[@id='incorrectdetails'] and  locatorType: xpath
+01/30/2024 11:04:00 AM - LoginPage - INFO: Element Found
+01/30/2024 11:04:02 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
+01/30/2024 11:04:02 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/30/2024 11:04:02 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
+01/30/2024 11:04:02 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/30/2024 11:04:02 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
+01/30/2024 11:04:02 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/30/2024 11:04:02 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
+01/30/2024 11:04:03 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/30/2024 11:04:06 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title Verified
+01/30/2024 11:04:08 AM - LoginPage - INFO: Element Found with locator: //button[@id='dropdownMenu1']//img and  locatorType: xpath
+01/30/2024 11:04:08 AM - LoginPage - INFO: Element Found
+01/30/2024 11:04:08 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login Successful
+01/30/2024 11:04:08 AM - TestStatus - INFO: test_valid_login ### TEST SUCCESSFUL
+01/30/2024 11:33:46 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
+01/30/2024 11:33:47 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/30/2024 11:33:47 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
+01/30/2024 11:33:47 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/30/2024 11:33:47 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
+01/30/2024 11:33:48 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/30/2024 11:33:48 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
+01/30/2024 11:33:48 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/30/2024 11:33:48 AM - LoginPage - INFO: Element Found with locator: //span[@id='incorrectdetails'] and  locatorType: xpath
+01/30/2024 11:33:48 AM - LoginPage - INFO: Element Found
+01/30/2024 11:33:50 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
+01/30/2024 11:33:51 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/30/2024 11:33:51 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
+01/30/2024 11:33:51 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/30/2024 11:33:51 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
+01/30/2024 11:33:51 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/30/2024 11:33:51 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
+01/30/2024 11:33:51 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/30/2024 11:33:54 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title Verified
+01/30/2024 11:33:56 AM - LoginPage - INFO: Element Found with locator: //button[@id='dropdownMenu1']//img and  locatorType: xpath
+01/30/2024 11:33:56 AM - LoginPage - INFO: Element Found
+01/30/2024 11:33:56 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login Successful
+01/30/2024 11:33:56 AM - TestStatus - INFO: test_valid_login ### TEST SUCCESSFUL
+01/30/2024 11:35:47 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
+01/30/2024 11:35:48 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/30/2024 11:35:48 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
+01/30/2024 11:35:49 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/30/2024 11:35:49 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
+01/30/2024 11:35:49 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/30/2024 11:35:49 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
+01/30/2024 11:35:49 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/30/2024 11:35:49 AM - LoginPage - INFO: Element Found with locator: //span[@id='incorrectdetails'] and  locatorType: xpath
+01/30/2024 11:35:49 AM - LoginPage - INFO: Element Found
+01/30/2024 11:35:51 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
+01/30/2024 11:35:52 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/30/2024 11:35:52 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
+01/30/2024 11:35:52 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/30/2024 11:35:52 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
+01/30/2024 11:35:52 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/30/2024 11:35:52 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
+01/30/2024 11:35:52 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/30/2024 11:35:55 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title Verified
+01/30/2024 11:35:57 AM - LoginPage - INFO: Element Found with locator: //button[@id='dropdownMenu1']//img and  locatorType: xpath
+01/30/2024 11:35:57 AM - LoginPage - INFO: Element Found
+01/30/2024 11:35:57 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login Successful
+01/30/2024 11:35:57 AM - TestStatus - INFO: test_valid_login ### TEST SUCCESSFUL
+01/30/2024 11:37:07 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
+01/30/2024 11:37:08 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/30/2024 11:37:08 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
+01/30/2024 11:37:08 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/30/2024 11:37:08 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
+01/30/2024 11:37:08 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/30/2024 11:37:08 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
+01/30/2024 11:37:08 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/30/2024 11:37:08 AM - LoginPage - INFO: Element Found with locator: //span[@id='incorrectdetails'] and  locatorType: xpath
+01/30/2024 11:37:08 AM - LoginPage - INFO: Element Found
+01/30/2024 11:37:10 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
+01/30/2024 11:37:11 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/30/2024 11:37:11 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
+01/30/2024 11:37:11 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/30/2024 11:37:11 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
+01/30/2024 11:37:11 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/30/2024 11:37:11 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
+01/30/2024 11:37:12 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/30/2024 11:37:15 AM - TestStatus - INFO: ### VERIFICATION FAILED :: + Title Verified
+01/30/2024 11:37:15 AM - TestStatus - INFO: Screenshot save to directory: C:\Users\Saurabh_Kumar\workspace_python\SeleniumFramework\base\../screenshots/Title Verified.1706594835054.png
+01/30/2024 11:37:17 AM - LoginPage - INFO: Element Found with locator: //button[@id='dropdownMenu1']//img and  locatorType: xpath
+01/30/2024 11:37:17 AM - LoginPage - INFO: Element Found
+01/30/2024 11:37:17 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login Successful
+01/30/2024 11:37:17 AM - TestStatus - ERROR: test_valid_login ### TEST FAILED
+01/30/2024 11:55:25 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
+01/30/2024 11:55:26 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/30/2024 11:55:26 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
+01/30/2024 11:55:26 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/30/2024 11:55:26 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
+01/30/2024 11:55:26 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/30/2024 11:55:26 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
+01/30/2024 11:55:26 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/30/2024 11:55:26 AM - LoginPage - INFO: Element Found with locator: //span[@id='incorrectdetails'] and  locatorType: xpath
+01/30/2024 11:55:26 AM - LoginPage - INFO: Element Found
+01/30/2024 11:55:28 AM - LoginPage - INFO: Element Found with locator: //a[@href='/login'] and  locatorType: xpath
+01/30/2024 11:55:29 AM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/30/2024 11:55:29 AM - LoginPage - INFO: Element Found with locator: email and  locatorType: id
+01/30/2024 11:55:29 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/30/2024 11:55:29 AM - LoginPage - INFO: Element Found with locator: login-password and  locatorType: id
+01/30/2024 11:55:29 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/30/2024 11:55:29 AM - LoginPage - INFO: Element Found with locator: login and  locatorType: id
+01/30/2024 11:55:30 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/30/2024 11:55:33 AM - Util - INFO: Actual Text From Application Web UI --> :: My Courses
+01/30/2024 11:55:33 AM - Util - INFO: Expected Text From Application Web UI --> :: My Courses
+01/30/2024 11:55:33 AM - Util - INFO: ### VERIFICATION CONTAINS !!!
+01/30/2024 11:55:33 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title Verification
+01/30/2024 11:55:35 AM - LoginPage - INFO: Element Found with locator: //button[@id='dropdownMenu1']//img and  locatorType: xpath
+01/30/2024 11:55:35 AM - LoginPage - INFO: Element Found
+01/30/2024 11:55:35 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login Successful
+01/30/2024 11:55:35 AM - TestStatus - INFO: test_valid_login ### TEST SUCCESSFUL

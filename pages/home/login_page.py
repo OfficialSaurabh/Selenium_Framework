@@ -3,11 +3,13 @@ from selenium.webdriver.common.by import By
 import time
 from base.selenium_driver import SeleniumDriver
 import utilities.custom_logger as cl
+from base.basepage import BasePage
 import logging
 
 
-class LoginPage(SeleniumDriver):
+class LoginPage(BasePage):
     log = cl.customLogger(logging.DEBUG)
+
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
@@ -59,3 +61,5 @@ class LoginPage(SeleniumDriver):
         result = self.isElementPresent("//span[@id='incorrectdetails']", locatorType="xpath")
         return result
 
+    def verify_title(self):
+        return self.verifyPageTitle("My Courses")
