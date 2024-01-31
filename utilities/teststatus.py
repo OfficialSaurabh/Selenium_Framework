@@ -13,8 +13,8 @@ import utilities.custom_logger as cl
 import logging
 from base.selenium_driver import SeleniumDriver
 
-class TestStatus(SeleniumDriver):
 
+class TestStatus(SeleniumDriver):
     log = cl.customLogger(logging.INFO)
 
     def __init__(self, driver):

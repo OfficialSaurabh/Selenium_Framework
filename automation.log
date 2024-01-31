@@ -140,3 +140,211 @@
 01/30/2024 11:55:35 AM - LoginPage - INFO: Element Found
 01/30/2024 11:55:35 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login Successful
 01/30/2024 11:55:35 AM - TestStatus - INFO: test_valid_login ### TEST SUCCESSFUL
+01/31/2024 05:04:01 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:04:01 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:04:01 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:04:01 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:04:01 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:04:01 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:04:01 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:04:02 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:04:06 PM - RegisterCoursesPage - INFO: Element not found with locator: search and  locatorType: id
+01/31/2024 05:04:06 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: search locatorType: id
+01/31/2024 05:04:09 PM - RegisterCoursesPage - INFO: Element not found with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:04:09 PM - RegisterCoursesPage - INFO: Cannot click on the element with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:04:12 PM - RegisterCoursesPage - INFO: Element not found with locator: //button[contains(@class,'btn-enroll')] and  locatorType: id
+01/31/2024 05:04:12 PM - RegisterCoursesPage - INFO: Cannot click on the element with locator: //button[contains(@class,'btn-enroll')] locatorType: id
+01/31/2024 05:04:15 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='cardnumber'] and  locatorType: id
+01/31/2024 05:04:15 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='cardnumber'] locatorType: id
+01/31/2024 05:04:18 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='exp-date'] and  locatorType: id
+01/31/2024 05:04:18 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='exp-date'] locatorType: id
+01/31/2024 05:06:21 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:06:22 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:06:22 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:06:22 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:06:22 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:06:22 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:06:22 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:06:23 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:06:27 PM - RegisterCoursesPage - INFO: Element not found with locator: search and  locatorType: id
+01/31/2024 05:06:27 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: search locatorType: id
+01/31/2024 05:06:29 PM - RegisterCoursesPage - INFO: Element not found with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:06:29 PM - RegisterCoursesPage - INFO: Cannot click on the element with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:06:29 PM - RegisterCoursesPage - INFO: Element not found with locator: //button[contains(@class,'btn-enroll')] and  locatorType: id
+01/31/2024 05:06:29 PM - RegisterCoursesPage - INFO: Cannot click on the element with locator: //button[contains(@class,'btn-enroll')] locatorType: id
+01/31/2024 05:10:46 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:10:47 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:10:47 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:10:47 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:10:47 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:10:47 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:10:47 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:10:47 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:10:47 PM - RegisterCoursesPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:10:47 PM - RegisterCoursesPage - INFO: Cannot click on the element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:10:51 PM - RegisterCoursesPage - INFO: Element not found with locator: search and  locatorType: id
+01/31/2024 05:10:51 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: search locatorType: id
+01/31/2024 05:10:54 PM - RegisterCoursesPage - INFO: Element not found with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:10:54 PM - RegisterCoursesPage - INFO: Cannot click on the element with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:10:57 PM - RegisterCoursesPage - INFO: Element not found with locator: //button[contains(@class,'btn-enroll')] and  locatorType: id
+01/31/2024 05:10:57 PM - RegisterCoursesPage - INFO: Cannot click on the element with locator: //button[contains(@class,'btn-enroll')] locatorType: id
+01/31/2024 05:10:59 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='cardnumber'] and  locatorType: id
+01/31/2024 05:10:59 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='cardnumber'] locatorType: id
+01/31/2024 05:10:59 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='exp-date'] and  locatorType: id
+01/31/2024 05:10:59 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='exp-date'] locatorType: id
+01/31/2024 05:12:33 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:12:34 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:12:34 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:12:34 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:12:34 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:12:34 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:12:34 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:12:35 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:12:35 PM - RegisterCoursesPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:12:35 PM - RegisterCoursesPage - INFO: Cannot click on the element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:12:39 PM - RegisterCoursesPage - INFO: Element not found with locator: search and  locatorType: id
+01/31/2024 05:12:39 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: search locatorType: id
+01/31/2024 05:12:42 PM - RegisterCoursesPage - INFO: Element not found with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:12:42 PM - RegisterCoursesPage - INFO: Cannot click on the element with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:12:45 PM - RegisterCoursesPage - INFO: Element not found with locator: //button[contains(@class,'btn-enroll')] and  locatorType: id
+01/31/2024 05:12:45 PM - RegisterCoursesPage - INFO: Cannot click on the element with locator: //button[contains(@class,'btn-enroll')] locatorType: id
+01/31/2024 05:12:48 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='cardnumber'] and  locatorType: id
+01/31/2024 05:12:48 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='cardnumber'] locatorType: id
+01/31/2024 05:12:51 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='exp-date'] and  locatorType: id
+01/31/2024 05:12:51 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='exp-date'] locatorType: id
+01/31/2024 05:14:23 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:14:24 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:14:24 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:14:24 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:14:24 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:14:24 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:14:24 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:14:25 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:14:27 PM - RegisterCoursesPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:14:32 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:14:32 PM - RegisterCoursesPage - INFO: Element found with locator: search and  locatorType: id
+01/31/2024 05:14:32 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: search locatorType: id
+01/31/2024 05:14:32 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:14:38 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:14:41 PM - RegisterCoursesPage - INFO: Element not found with locator: //button[contains(@class,'btn-enroll')] and  locatorType: id
+01/31/2024 05:14:41 PM - RegisterCoursesPage - INFO: Cannot click on the element with locator: //button[contains(@class,'btn-enroll')] locatorType: id
+01/31/2024 05:14:44 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='cardnumber'] and  locatorType: id
+01/31/2024 05:14:44 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='cardnumber'] locatorType: id
+01/31/2024 05:14:47 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='exp-date'] and  locatorType: id
+01/31/2024 05:14:47 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='exp-date'] locatorType: id
+01/31/2024 05:20:30 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:20:30 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:20:30 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:20:30 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:20:30 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:20:30 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:20:30 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:20:31 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:20:33 PM - RegisterCoursesPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:20:39 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:20:39 PM - RegisterCoursesPage - INFO: Element found with locator: search and  locatorType: id
+01/31/2024 05:20:39 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: search locatorType: id
+01/31/2024 05:20:39 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:20:45 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:20:46 PM - RegisterCoursesPage - INFO: Element found with locator: //button[contains(@class,'btn-enroll')] and  locatorType: xpath
+01/31/2024 05:20:52 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //button[contains(@class,'btn-enroll')] locatorType: xpath
+01/31/2024 05:20:55 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='cardnumber'] and  locatorType: xpath
+01/31/2024 05:20:55 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='cardnumber'] locatorType: xpath
+01/31/2024 05:20:58 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='exp-date'] and  locatorType: xpath
+01/31/2024 05:20:58 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='exp-date'] locatorType: xpath
+01/31/2024 05:36:34 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:36:35 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:36:35 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:36:35 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:36:35 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:36:35 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:36:35 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:36:35 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:36:38 PM - RegisterCoursesPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:36:44 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:36:44 PM - RegisterCoursesPage - INFO: Element found with locator: search and  locatorType: id
+01/31/2024 05:36:44 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: search locatorType: id
+01/31/2024 05:36:44 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:36:50 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:36:50 PM - RegisterCoursesPage - INFO: Element found with locator: //button[contains(@class,'btn-enroll')] and  locatorType: xpath
+01/31/2024 05:36:56 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //button[contains(@class,'btn-enroll')] locatorType: xpath
+01/31/2024 05:36:59 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='cardnumber'] and  locatorType: xpath
+01/31/2024 05:36:59 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='cardnumber'] locatorType: xpath
+01/31/2024 05:37:02 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='exp-date'] and  locatorType: xpath
+01/31/2024 05:37:02 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='exp-date'] locatorType: xpath
+01/31/2024 05:40:42 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:40:43 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:40:43 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:40:43 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:40:43 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:40:43 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:40:43 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:40:43 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:40:45 PM - RegisterCoursesPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:40:51 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:40:54 PM - RegisterCoursesPage - INFO: Element found with locator: search and  locatorType: id
+01/31/2024 05:40:54 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: search locatorType: id
+01/31/2024 05:40:54 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:41:01 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:41:01 PM - RegisterCoursesPage - INFO: Element found with locator: //button[contains(@class,'btn-enroll')] and  locatorType: xpath
+01/31/2024 05:41:07 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //button[contains(@class,'btn-enroll')] locatorType: xpath
+01/31/2024 05:41:10 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='cardnumber'] and  locatorType: xpath
+01/31/2024 05:41:10 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='cardnumber'] locatorType: xpath
+01/31/2024 05:41:13 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='exp-date'] and  locatorType: xpath
+01/31/2024 05:41:13 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='exp-date'] locatorType: xpath
+01/31/2024 05:45:53 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:45:54 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:45:54 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:45:54 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:45:54 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:45:54 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:45:54 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:45:55 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:45:57 PM - RegisterCoursesPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:46:03 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:46:03 PM - RegisterCoursesPage - INFO: Element found with locator: search and  locatorType: id
+01/31/2024 05:46:03 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: search locatorType: id
+01/31/2024 05:46:03 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:46:09 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:46:09 PM - RegisterCoursesPage - INFO: Element found with locator: //button[contains(@class,'btn-enroll')] and  locatorType: xpath
+01/31/2024 05:46:15 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //button[contains(@class,'btn-enroll')] locatorType: xpath
+01/31/2024 05:46:18 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='cardnumber'] and  locatorType: xpath
+01/31/2024 05:46:18 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='cardnumber'] locatorType: xpath
+01/31/2024 05:46:19 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='exp-date'] and  locatorType: xpath
+01/31/2024 05:46:19 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='exp-date'] locatorType: xpath
+01/31/2024 05:49:18 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:49:19 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:49:19 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:49:19 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:49:19 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:49:19 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:49:19 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:49:20 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:49:22 PM - RegisterCoursesPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:49:28 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:49:28 PM - RegisterCoursesPage - INFO: Element found with locator: search and  locatorType: id
+01/31/2024 05:49:28 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: search locatorType: id
+01/31/2024 05:49:28 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:49:34 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:49:34 PM - RegisterCoursesPage - INFO: Element found with locator: //button[contains(@class,'btn-enroll')] and  locatorType: xpath
+01/31/2024 05:49:38 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //button[contains(@class,'btn-enroll')] locatorType: xpath
+01/31/2024 05:51:26 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:51:26 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:51:26 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:51:26 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:51:26 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:51:26 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:51:26 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:51:27 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:51:29 PM - RegisterCoursesPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:51:35 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:51:35 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@id='search'] and  locatorType: xpath
+01/31/2024 05:51:35 PM - RegisterCoursesPage - INFO: Sent data on element with locator: //input[@id='search'] locatorType: xpath
+01/31/2024 05:51:35 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:51:41 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[@id='course-list']//h4[contains(text(),'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:51:41 PM - RegisterCoursesPage - INFO: Element found with locator: //button[contains(@class,'btn-enroll')] and  locatorType: xpath
+01/31/2024 05:51:48 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //button[contains(@class,'btn-enroll')] locatorType: xpath
+01/31/2024 05:51:51 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='cardnumber'] and  locatorType: xpath
+01/31/2024 05:51:51 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='cardnumber'] locatorType: xpath
+01/31/2024 05:51:54 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@name='exp-date'] and  locatorType: xpath
+01/31/2024 05:51:54 PM - RegisterCoursesPage - INFO: Cannot send data on the element with locator: //input[@name='exp-date'] locatorType: xpath
