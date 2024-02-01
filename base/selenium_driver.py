@@ -234,3 +234,98 @@ class SeleniumDriver():
         if direction == "down":
             # Scroll Down
             self.driver.execute_script("window.scrollBy(0, 1000);")
+
+    def switchToFrame(self, id="", name="", xpath="", index=None):
+        """
+        Switch to iframe using element locator inside iframe
+
+        Parameters:
+            1. Required:
+                None
+            2. Optional:
+                1. id    - id of the iframe
+                2. name  - name of the iframe
+                3. index - index of the iframe
+        Returns:
+            None
+        Exception:
+            None
+        """
+        if id:
+            self.driver.switch_to.frame(id)
+        elif name:
+            self.driver.switch_to.frame(name)
+        elif xpath:
+            iframe_element = self.driver.find_element(By.XPATH, xpath)
+            self.driver.switch_to.frame(iframe_element)
+        else:
+            self.driver.switch_to.frame(index)
+
+    def switchToDefaultContent(self):
+        """
+        Switch to default content
+
+        Parameters:
+            None
+        Returns:
+            None
+        Exception:
+            None
+        """
+        self.driver.switch_to.default_content()
+
+    def getElementAttributeValue(self, attribute, element=None, locator="", locatorType="id"):
+        """
+        Get value of the attribute of element
+
+        Parameters:
+            1. Required:
+                1. attribute - attribute whose value to find
+
+            2. Optional:
+                1. element   - Element whose attribute need to find
+                2. locator   - Locator of the element
+                3. locatorType - Locator Type to find the element
+
+        Returns:
+            Value of the attribute
+        Exception:
+            None
+        """
+        if locator:
+            element = self.getElement(locator=locator, locatorType=locatorType)
+        value = element.get_attribute(attribute)
+        return value
+
+    def isEnabled(self, locator, locatorType="id", info=""):
+        """
+        Check if element is enabled
+
+        Parameters:
+            1. Required:
+                1. locator - Locator of the element to check
+            2. Optional:
+                1. locatorType - Type of the locator(id(default), xpath, css, className, linkText)
+                2. info - Information about the element, label/name of the element
+        Returns:
+            boolean
+        Exception:
+            None
+        """
+        element = self.getElement(locator, locatorType=locatorType)
+        enabled = False
+        try:
+            attributeValue = self.getElementAttributeValue(element=element, attribute="disabled")
+            if attributeValue is not None:
+                enabled = element.is_enabled()
+            else:
+                value = self.getElementAttributeValue(element=element, attribute="class")
+                self.log.info("Attribute value From Application Web UI --> :: " + value)
+                enabled = not ("disabled" in value)
+            if enabled:
+                self.log.info("Element :: '" + info + "' is enabled")
+            else:
+                self.log.info("Element :: '" + info + "' is not enabled")
+        except:
+            self.log.error("Element :: '" + info + "' state could not be found")
+        return enabled

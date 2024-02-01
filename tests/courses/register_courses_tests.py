@@ -17,6 +17,6 @@ class RegisterCoursesTests(unittest.TestCase):
         self.courses.clickAllCourse()
         self.courses.enterCourseName("JavaScript")
         self.courses.selectCourseToEnroll("JavaScript for beginners")
-        self.courses.enrollCourse(num="10", exp="1020", cvv="10")
+        self.courses.enrollCourse(num="1025 1256 1256", exp="1020", cvv="10")
         result = self.courses.verifyEnrollFailed()
         self.ts.markFinal("test_invalidEnroll", result, "Enroll Failed Verification")

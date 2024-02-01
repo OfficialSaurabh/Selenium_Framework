@@ -16,7 +16,7 @@ class RegisterCoursesPage(BasePage):
     _course = "//div[@id='course-list']//h4[contains(text(),'{}')]"
     _all_coursers = "course-list"
     _enroll_button = "//button[contains(@class,'btn-enroll')]"
-    _cc_num = "//input[@name='cardnumber']"
+    _cc_num = "//input[@aria-label='Credit or debit card number']"
     _cc_exp = "//input[@name='exp-date']"
     _cc_cvc = "//input[@name='cvc']"
     _submit_enroll = "//button[contains(@class,'sp-buy')]"
@@ -36,16 +36,24 @@ class RegisterCoursesPage(BasePage):
         self.elementClick(locator=self._enroll_button, locatorType="xpath")
 
     def enterCardNum(self, num):
+        self.switchToFrame(xpath="//iframe[@title='Secure card number input frame']")
         self.sendKeys(num, locator=self._cc_num, locatorType="xpath")
+        self.switchToDefaultContent()
 
     def enterCardExp(self, exp):
+        self.switchToFrame(xpath="//iframe[@title='Secure expiration date input frame']")
         self.sendKeys(exp, locator=self._cc_exp, locatorType="xpath")
+        self.switchToDefaultContent()
+
 
     def enterCardCVV(self, cvv):
-        self.sendKeys(cvv, locator=self._cc_cvv, locatorType="xpath")
+        self.switchToFrame(xpath="//iframe[@title='Secure CVC input frame']")
+        self.sendKeys(cvv, locator=self._cc_cvc, locatorType="xpath")
+        self.switchToDefaultContent()
+
 
     def clickEnrollSubmitButton(self):
-        self.sendKeys(self._submit_enroll, locator="xpath")
+        self.elementClick(locator=self._submit_enroll, locatorType="xpath")
 
     def enterCreditCardInformation(self, num, exp, cvv):
         self.enterCardNum(num)
