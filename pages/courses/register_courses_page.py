@@ -19,6 +19,9 @@ class RegisterCoursesPage(BasePage):
     _cc_num = "//input[@aria-label='Credit or debit card number']"
     _cc_exp = "//input[@name='exp-date']"
     _cc_cvc = "//input[@name='cvc']"
+    _ccnum_iframe_xpath = "//iframe[@title='Secure card number input frame']"
+    _ccexp_iframe_xpath ="//iframe[@title='Secure expiration date input frame']"
+    _cccvc_iframe_xpath ="//iframe[@title='Secure CVC input frame']"
     _submit_enroll = "//button[contains(@class,'sp-buy')]"
     _enroll_error_message = "//div[contains(@class,'has-error')]"
 
@@ -36,18 +39,19 @@ class RegisterCoursesPage(BasePage):
         self.elementClick(locator=self._enroll_button, locatorType="xpath")
 
     def enterCardNum(self, num):
-        self.switchToFrame(xpath="//iframe[@title='Secure card number input frame']")
+        # self.SwitchFrameByIndex(self._cc_num, locatorType="xpath")
+        self.switchToFrame(xpath=self._ccnum_iframe_xpath)
         self.sendKeys(num, locator=self._cc_num, locatorType="xpath")
         self.switchToDefaultContent()
 
     def enterCardExp(self, exp):
-        self.switchToFrame(xpath="//iframe[@title='Secure expiration date input frame']")
+        self.switchToFrame(xpath=self._ccexp_iframe_xpath)
         self.sendKeys(exp, locator=self._cc_exp, locatorType="xpath")
         self.switchToDefaultContent()
 
 
     def enterCardCVV(self, cvv):
-        self.switchToFrame(xpath="//iframe[@title='Secure CVC input frame']")
+        self.switchToFrame(xpath=self._cccvc_iframe_xpath)
         self.sendKeys(cvv, locator=self._cc_cvc, locatorType="xpath")
         self.switchToDefaultContent()
 
