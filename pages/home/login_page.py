@@ -5,6 +5,7 @@ from base.selenium_driver import SeleniumDriver
 import utilities.custom_logger as cl
 from base.basepage import BasePage
 import logging
+from pages.home.navigation_page import NavigationPage
 
 
 class LoginPage(BasePage):
@@ -13,6 +14,7 @@ class LoginPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
+        self.nav = NavigationPage(driver)
 
     # Locator
     _login_link = "//a[@href='/login']"
@@ -47,8 +49,10 @@ class LoginPage(BasePage):
 
     def login(self, email="", password=""):
         self.click_login_link()
+        # self.clearField()
         self.enter_email(email)
         self.enter_password(password)
+        time.sleep(2)
         self.click_login_button()
 
     def verify_login_successful(self):
@@ -63,3 +67,13 @@ class LoginPage(BasePage):
 
     def verify_title(self):
         return self.verifyPageTitle("My Courses")
+
+    def logout(self):
+        self.nav.navigateToUserSettings()
+        logoutLinkElement = self.waitForElement(locator="//a[@class='dynamic-link']//span[@class='caret']",
+                                                locatorType="xpath", pollFrequency=1)
+        time.sleep(2)
+        self.elementClick(element=logoutLinkElement)
+        time.sleep(2)
+        self.elementClick(locator="//a[@href='/logout']", locatorType="xpath")
+

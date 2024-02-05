@@ -26,7 +26,8 @@ class LoginTest(unittest.TestCase):
 
     @pytest.mark.run(order=1)
     def test_invalid_login(self):
-        self.lp.login("test07@mailinator.com", "Test@12")
+        self.lp.logout()
+        self.lp.login("test07@gmail.com", "Test@12dfgdg")
         result = self.lp.verify_login_failed()
         assert result == True
         # self.driver.quit()
