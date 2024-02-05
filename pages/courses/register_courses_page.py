@@ -13,6 +13,7 @@ class RegisterCoursesPage(BasePage):
 
     _all_course = "//a[@href='/courses']"
     _search_box = "//input[@id='search']"
+    _search_btn = "//button[@type='submit']//i"
     _course = "//div[@id='course-list']//h4[contains(text(),'{}')]"
     _all_coursers = "course-list"
     _enroll_button = "//button[contains(@class,'btn-enroll')]"
@@ -31,6 +32,8 @@ class RegisterCoursesPage(BasePage):
 
     def enterCourseName(self, name):
         self.sendKeys(name, locator=self._search_box, locatorType="xpath")
+        self.elementClick(self._search_btn, locatorType="xpath")
+
 
     def selectCourseToEnroll(self, fullCourseName):
         self.elementClick(locator=self._course.format(fullCourseName), locatorType="xpath")
@@ -40,8 +43,11 @@ class RegisterCoursesPage(BasePage):
 
     def enterCardNum(self, num):
         # self.SwitchFrameByIndex(self._cc_num, locatorType="xpath")
+        time.sleep(3)
         self.switchToFrame(xpath=self._ccnum_iframe_xpath)
+        time.sleep(3)
         self.sendKeys(num, locator=self._cc_num, locatorType="xpath")
+        time.sleep(3)
         self.switchToDefaultContent()
 
     def enterCardExp(self, exp):
